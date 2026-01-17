@@ -1,0 +1,15 @@
+train: C:/Users/Andre/Desktop/Ia/treinoModelos/modeloSemDataAugmentation/train/images
+val: C:/Users/Andre/Desktop/Ia/treinoModelos/modeloSemDataAugmentation/valid/images
+test: C:/Users/Andre/Desktop/Ia/treinoModelos/modeloSemDataAugmentation/test/images
+
+nc: 7
+names: [Tetrimino_Z, Tetrimino_S, Tetrimino_I, Tetrimino_O, Tetrimino_L, Tetrimino_J, Tetrimino_T]
+
+
+
+roboflow:
+  workspace: tetrisdetection
+  project: tetrisdetection
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tetrisdetection/tetrisdetection/dataset/2
